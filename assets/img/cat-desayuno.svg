@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Desayunos">
+  <defs>
+    <linearGradient id="pan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2C580"/>
+      <stop offset="1" stop-color="#D99A4E"/>
+    </linearGradient>
+    <linearGradient id="taza" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E64A3A"/>
+      <stop offset="1" stop-color="#C22F20"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="232" rx="90" ry="11" fill="#3A2314" opacity=".14"/>
+  <!-- plato -->
+  <ellipse cx="98" cy="196" rx="76" ry="26" fill="#F6EBD9"/>
+  <ellipse cx="98" cy="192" rx="76" ry="26" fill="#FFFDF7"/>
+  <!-- tostada -->
+  <path d="M46 138 C40 128 46 116 58 114 L128 104 C140 102 150 110 150 122 L150 172 C150 182 142 190 132 190 L66 190 C54 190 46 180 46 168 Z" fill="url(#pan)" transform="rotate(-3 98 148)"/>
+  <!-- huevo frito -->
+  <path d="M70 132 C62 118 74 104 90 106 C94 94 112 92 120 102 C134 96 148 108 142 122 C154 128 150 146 138 150 C140 162 124 170 112 164 C102 172 84 168 82 156 C68 156 62 142 70 132 Z" fill="#FFFDF7"/>
+  <circle cx="106" cy="134" r="16" fill="#F5B62F"/>
+  <ellipse cx="101" cy="129" rx="5" ry="3.6" fill="#FFDE8A"/>
+  <!-- taza de café -->
+  <path d="M158 148 L214 148 C218 148 222 152 221 156 L214 204 C213 212 206 218 198 218 L174 218 C166 218 159 212 158 204 L151 156 C150 152 154 148 158 148 Z" fill="url(#taza)"/>
+  <path d="M219 158 C234 158 240 172 232 182 C227 189 218 192 212 190 L214 176 C219 177 224 175 226 170 C228 166 225 162 218 163 Z" fill="#C22F20"/>
+  <ellipse cx="186" cy="150" rx="30" ry="7" fill="#7A3B1D"/>
+  <!-- vapor -->
+  <path d="M174 128 C170 118 178 114 176 106 M190 130 C186 120 194 116 192 106 M206 128 C202 118 210 114 208 106" stroke="#C9A98C" stroke-width="4" fill="none" stroke-linecap="round" opacity=".8"/>
+</svg>

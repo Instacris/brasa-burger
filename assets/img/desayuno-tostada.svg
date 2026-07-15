@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Tostada con palta y huevo">
+  <defs>
+    <linearGradient id="pant" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2C580"/>
+      <stop offset="1" stop-color="#D99A4E"/>
+    </linearGradient>
+    <linearGradient id="paltat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B5D67E"/>
+      <stop offset="1" stop-color="#7FA946"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="226" rx="92" ry="12" fill="#3A2314" opacity=".14"/>
+  <!-- tabla -->
+  <ellipse cx="128" cy="200" rx="96" ry="26" fill="#B97F45"/>
+  <ellipse cx="128" cy="196" rx="96" ry="26" fill="#C9915A"/>
+  <!-- tostada -->
+  <g transform="rotate(-4 128 150)">
+    <rect x="52" y="96" width="152" height="112" rx="14" fill="url(#pant)"/>
+    <rect x="62" y="106" width="132" height="92" rx="10" fill="#F5D9A6"/>
+    <!-- palta untada -->
+    <path d="M70 120 C90 108 120 112 138 118 C160 112 184 118 186 132 C190 150 178 168 162 176 C146 186 118 188 100 180 C80 174 64 158 66 140 C66 132 66 126 70 120 Z" fill="url(#paltat)"/>
+    <!-- huevo -->
+    <path d="M104 128 C98 118 108 108 120 110 C124 102 138 102 144 110 C154 106 164 116 158 126 C166 132 160 144 152 144 C152 152 140 158 132 152 C124 158 110 154 110 146 C102 144 98 134 104 128 Z" fill="#FFFDF7"/>
+    <circle cx="130" cy="128" r="12" fill="#F5B62F"/>
+    <!-- pimienta y semillas -->
+    <g fill="#5C3A21" opacity=".7"><circle cx="86" cy="150" r="2"/><circle cx="98" cy="166" r="2"/><circle cx="152" cy="164" r="2"/><circle cx="170" cy="144" r="2"/></g>
+    <g fill="#D9534F"><circle cx="80" cy="134" r="2.6"/><circle cx="166" cy="160" r="2.6"/></g>
+  </g>
+  <!-- palta decorativa -->
+  <g transform="translate(216 154) rotate(18)">
+    <ellipse cx="0" cy="22" rx="22" ry="29" fill="#5C8A34"/>
+    <ellipse cx="0" cy="22" rx="17" ry="24" fill="#C8DF8E"/>
+    <circle cx="0" cy="27" r="8.5" fill="#8A5A2B"/>
+  </g>
+</svg>

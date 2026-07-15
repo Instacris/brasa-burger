@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Pedido que llega cálido y ordenado">
+  <defs>
+    <linearGradient id="bolsa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFB05B"/>
+      <stop offset="1" stop-color="#C9884A"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="230" rx="86" ry="11" fill="#3A2314" opacity=".14"/>
+  <!-- vapor calido -->
+  <path d="M96 62 C90 46 102 40 98 26 M128 58 C122 42 134 36 130 22 M160 62 C154 46 166 40 162 26" stroke="#E8956B" stroke-width="6" fill="none" stroke-linecap="round" opacity=".85"/>
+  <!-- bolsa -->
+  <path d="M62 92 L194 92 L186 216 C185.5 224 179 230 171 230 L85 230 C77 230 70.5 224 70 216 Z" fill="url(#bolsa)"/>
+  <path d="M62 92 L194 92 L191 118 L65 118 Z" fill="#B9773B" opacity=".55"/>
+  <!-- asas -->
+  <path d="M96 92 C96 70 116 64 128 64 C140 64 160 70 160 92" stroke="#8A5A2B" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- corazón -->
+  <path d="M128 190 C112 176 104 166 104 154 C104 144 112 138 120 138 C124 138 127 140 128 143 C129 140 132 138 136 138 C144 138 152 144 152 154 C152 166 144 176 128 190 Z" fill="#D8402C"/>
+  <!-- cajitas ordenadas asomando -->
+  <rect x="80" y="76" width="42" height="18" rx="4" fill="#FFF3E4" stroke="#D8C6AC" stroke-width="2"/>
+  <rect x="134" y="76" width="42" height="18" rx="4" fill="#FFF3E4" stroke="#D8C6AC" stroke-width="2"/>
+</svg>

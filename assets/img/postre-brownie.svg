@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Brownie con helado de vainilla">
+  <defs>
+    <linearGradient id="brw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6E4526"/>
+      <stop offset="1" stop-color="#4A2C15"/>
+    </linearGradient>
+    <linearGradient id="scoop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF7"/>
+      <stop offset="1" stop-color="#F0E2C4"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="226" rx="92" ry="12" fill="#3A2314" opacity=".14"/>
+  <!-- plato -->
+  <ellipse cx="128" cy="210" rx="90" ry="22" fill="#E9DCC8"/>
+  <ellipse cx="128" cy="206" rx="90" ry="22" fill="#FFFDF7"/>
+  <!-- brownie (dos pisos) -->
+  <path d="M62 156 L194 156 L188 204 C187 210 182 214 176 214 L80 214 C74 214 69 210 68 204 Z" fill="url(#brw)"/>
+  <rect x="70" y="140" width="116" height="22" rx="6" fill="#5C3A21"/>
+  <path d="M78 150 H108 M124 150 H150 M166 150 H180" stroke="#8A5A36" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+  <!-- nueces -->
+  <g fill="#C9975C"><circle cx="92" cy="176" r="5"/><circle cx="146" cy="184" r="4.4"/><circle cx="172" cy="172" r="4.4"/></g>
+  <!-- helado -->
+  <path d="M86 118 C82 84 108 66 128 66 C148 66 174 84 170 118 C172 128 164 134 156 132 L100 132 C92 134 84 128 86 118 Z" fill="url(#scoop)"/>
+  <path d="M100 92 Q116 84 130 92 M138 84 Q152 80 160 90" stroke="#E4CBA8" stroke-width="4" fill="none" stroke-linecap="round" opacity=".85"/>
+  <!-- salsa chocolate cayendo -->
+  <path d="M92 128 L164 128 L164 134 C164 140 158 142 154 138 C152 148 140 148 138 140 C134 152 120 150 118 140 C114 150 102 148 100 140 C96 144 90 142 90 136 Z" fill="#4A2C15"/>
+  <!-- menta -->
+  <path d="M128 60 C122 48 110 46 102 50 C110 58 120 62 128 60 Z" fill="#71A24B"/>
+  <circle cx="130" cy="60" r="7" fill="#C82C40"/>
+</svg>

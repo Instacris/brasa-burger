@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Bebida helada con hielo">
+  <defs>
+    <linearGradient id="sodacup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E64A3A"/>
+      <stop offset="1" stop-color="#C22F20"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="238" rx="76" ry="10" fill="#3A2314" opacity=".14"/>
+  <!-- bombilla -->
+  <rect x="138" y="10" width="12" height="72" rx="6" fill="#F2A93B" transform="rotate(8 144 46)"/>
+  <!-- tapa -->
+  <path d="M76 78 L180 78 L176 96 L80 96 Z" fill="#FFF3E4"/>
+  <ellipse cx="128" cy="78" rx="52" ry="10" fill="#FFFDF7"/>
+  <path d="M80 96 L176 96 L174 106 L82 106 Z" fill="#E9DCC8"/>
+  <!-- vaso -->
+  <path d="M84 106 L172 106 L162 226 C161 234 154 240 146 240 L110 240 C102 240 95 234 94 226 Z" fill="url(#sodacup)"/>
+  <path d="M92 130 L164 130" stroke="#A82418" stroke-width="0" fill="none"/>
+  <!-- banda -->
+  <path d="M89 150 L167 150 L164 182 L92 182 Z" fill="#FFF3E4"/>
+  <path d="M112 174 C112 160 122 158 122 150 C122 158 132 160 132 174 Q127 169 122 174 Q117 169 112 174 Z" fill="#E64A3A" transform="translate(6 0)"/>
+  <!-- condensación -->
+  <g fill="#F6B2A6" opacity=".8">
+    <circle cx="102" cy="126" r="3"/><circle cx="152" cy="120" r="2.6"/><circle cx="110" cy="200" r="3"/>
+    <circle cx="148" cy="208" r="2.6"/><circle cx="100" cy="140" r="2.2"/><circle cx="156" cy="196" r="2.2"/>
+  </g>
+  <!-- burbujas arriba -->
+  <g fill="none" stroke="#C9A98C" stroke-width="3" opacity=".7">
+    <circle cx="98" cy="52" r="5"/><circle cx="112" cy="38" r="3.6"/><circle cx="88" cy="34" r="2.8"/>
+  </g>
+</svg>

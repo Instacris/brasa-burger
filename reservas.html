@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendar &amp; Delivery · Brasa Burger</title>
+  <meta name="description" content="Reserva tu mesa en Brasa Burger o arma tu pedido a domicilio: te llega cálido, sellado y ordenado. Confirmación inmediata por WhatsApp.">
+  <meta name="theme-color" content="#E85D26">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Agendar &amp; Delivery · Brasa Burger">
+  <meta property="og:description" content="Reserva tu mesa o pide a domicilio en un minuto.">
+  <meta property="og:image" content="assets/img/feat-delivery.svg">
+  <meta property="og:locale" content="es_CL">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="index.html" class="nav__logo" aria-label="Brasa Burger, inicio">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#E85D26"/><path d="M12 30 C12 18 21 12 32 12 C43 12 52 18 52 30 L52 31 C52 32.6 50.6 34 49 34 L15 34 C13.4 34 12 32.6 12 31 Z" fill="#F8BC66"/><g fill="#FFF3E4"><ellipse cx="24" cy="22" rx="2.2" ry="1.4" transform="rotate(-14 24 22)"/><ellipse cx="34" cy="19" rx="2.2" ry="1.4" transform="rotate(10 34 19)"/><ellipse cx="42" cy="24" rx="2.2" ry="1.4" transform="rotate(-8 42 24)"/></g><path d="M13 36 L51 36 L51 38 C51 39 50 40 49 40 L46 40 L46 43 C46 45.4 42 45.4 42 43 L42 40 L34 40 L34 45 C34 47.4 30 47.4 30 45 L30 40 L22 40 L22 43.4 C22 45.8 18 45.8 18 43.4 L18 40 L15 40 C14 40 13 39 13 38 Z" fill="#FFD44D"/><rect x="13" y="45" width="38" height="7" rx="3.5" fill="#6B3A22"/><path d="M15 54 H49 C50.6 54 52 55 52 56.5 C52 60 49 62 45 62 L19 62 C15 62 12 60 12 56.5 C12 55 13.4 54 15 54 Z" fill="#EFB05B" transform="translate(0 -3)"/></svg>
+        <span class="nav__logo-texto">
+          <strong>BRASA BURGER</strong>
+          <span>A la brasa · con calma</span>
+        </span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html">Inicio</a>
+        <a href="carta.html">Carta</a>
+        <a href="reservas.html" class="is-activa">Agendar &amp; Delivery</a>
+        <a href="index.html#faq">Preguntas</a>
+        <a href="carta.html" class="btn btn--primary">Ver carta</a>
+      </nav>
+      <button class="nav__burger" id="navBurger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="pagina-hero">
+      <div class="container">
+        <span class="seccion__eyebrow">Sin llamadas eternas</span>
+        <h1>Agenda tu mesa o pide a domicilio</h1>
+        <p>Completa el formulario y el mensaje llega directo a nuestro WhatsApp. Te confirmamos al tiro.</p>
+      </div>
+    </section>
+
+    <section class="reservas" id="mesa">
+      <div class="container reservas__grid">
+
+        <!-- Panel de información -->
+        <aside class="panel-info reveal">
+          <h2>El local</h2>
+          <p>Un rincón de barrio con olor a brasa. Te esperamos con la parrilla encendida.</p>
+          <div class="panel-info__item">
+            <span class="panel-info__icono">📍</span>
+            <div><strong>Av. Irarrázaval 2450, Ñuñoa</strong><span>Santiago · a pasos del metro</span></div>
+          </div>
+          <div class="panel-info__item">
+            <span class="panel-info__icono">🕐</span>
+            <div><strong>Lun a Dom desde las 12:00</strong><span>Desayunos: Sáb, Dom y festivos 9:00 – 12:00</span></div>
+          </div>
+          <div class="panel-info__item">
+            <span class="panel-info__icono">🛵</span>
+            <div><strong>Delivery propio en 5 km</strong><span>Ñuñoa · Providencia · Macul, en ~35 min</span></div>
+          </div>
+          <div class="panel-info__item">
+            <span class="panel-info__icono">💬</span>
+            <div><strong>+56 9 4044 3203</strong><span>WhatsApp para reservas y pedidos</span></div>
+          </div>
+          <img src="assets/img/feat-delivery.svg" alt="Pedido que llega cálido y ordenado">
+        </aside>
+
+        <!-- Formularios -->
+        <div class="tarjeta-form reveal" data-delay="1" id="delivery">
+          <div class="tabs" role="tablist">
+            <button class="tab is-activa" id="tabMesa" role="tab" aria-controls="formMesa">
+              <span class="tab__emoji">🍽️</span> Reservar mesa
+            </button>
+            <button class="tab" id="tabDelivery" role="tab" aria-controls="formDelivery">
+              <span class="tab__emoji">🛵</span> Pedido a domicilio
+            </button>
+          </div>
+
+          <!-- Reserva de mesa -->
+          <form class="form is-visible" id="formMesa" autocomplete="on">
+            <div class="campo">
+              <label for="mesaNombre">Tu nombre</label>
+              <input type="text" id="mesaNombre" name="nombre" placeholder="Ej: Camila Rojas" required minlength="3">
+            </div>
+            <div class="form__fila">
+              <div class="campo">
+                <label for="mesaFecha">Fecha</label>
+                <input type="date" id="mesaFecha" name="fecha" required>
+              </div>
+              <div class="campo">
+                <label for="mesaHora">Hora</label>
+                <select id="mesaHora" name="hora" required>
+                  <option value="" disabled selected>Elige una hora</option>
+                  <option>12:00</option><option>12:30</option><option>13:00</option><option>13:30</option>
+                  <option>14:00</option><option>14:30</option><option>15:00</option>
+                  <option>18:00</option><option>18:30</option><option>19:00</option><option>19:30</option>
+                  <option>20:00</option><option>20:30</option><option>21:00</option><option>21:30</option>
+                </select>
+              </div>
+            </div>
+            <div class="campo">
+              <label for="mesaPersonas">¿Cuántas personas?</label>
+              <select id="mesaPersonas" name="personas" required>
+                <option value="" disabled selected>Elige una opción</option>
+                <option>2 personas</option><option>3 personas</option><option>4 personas</option>
+                <option>5 personas</option><option>6 personas</option><option>7 a 9 personas</option>
+                <option>10 a 12 personas</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="mesaComentario">Comentario <small>(opcional)</small></label>
+              <textarea id="mesaComentario" name="comentario" placeholder="Cumpleaños, silla para guagua, mesa en terraza…"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Enviar reserva por WhatsApp 💬</button>
+            <p class="form__nota">Al enviar se abre WhatsApp con tu reserva ya escrita. Nada se paga por adelantado.</p>
+          </form>
+
+          <!-- Pedido a domicilio -->
+          <form class="form" id="formDelivery" autocomplete="on">
+            <div class="campo">
+              <label for="delNombre">Tu nombre</label>
+              <input type="text" id="delNombre" name="nombre" placeholder="Ej: Matías Fuentes" required minlength="3">
+            </div>
+            <div class="form__fila">
+              <div class="campo">
+                <label for="delDireccion">Dirección</label>
+                <input type="text" id="delDireccion" name="direccion" placeholder="Calle y número, depto" required minlength="5">
+              </div>
+              <div class="campo">
+                <label for="delComuna">Comuna</label>
+                <select id="delComuna" name="comuna" required>
+                  <option value="" disabled selected>Elige tu comuna</option>
+                  <option>Ñuñoa</option><option>Providencia</option><option>Macul</option>
+                  <option>Santiago Centro</option><option>La Reina</option><option>Otra (consultar)</option>
+                </select>
+              </div>
+            </div>
+            <div class="campo">
+              <label for="delPedido">Tu pedido</label>
+              <textarea id="delPedido" name="pedido" required minlength="5" placeholder="Ej: 1 Tocino Tomate & Palta, 1 papas grandes, 1 malteada de frutilla"></textarea>
+              <span class="ayuda">¿Dudas con los nombres? Mira la <a href="carta.html" style="color:var(--naranja-osc); font-weight:800">carta completa aquí</a>.</span>
+            </div>
+            <div class="campo">
+              <label for="delPago">Medio de pago</label>
+              <select id="delPago" name="pago" required>
+                <option value="" disabled selected>Elige cómo pagarás</option>
+                <option>Efectivo</option><option>Tarjeta al recibir</option>
+                <option>Transferencia</option><option>Link de pago</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="delNota">Nota para el repartidor <small>(opcional)</small></label>
+              <input type="text" id="delNota" name="nota" placeholder="Ej: tocar el timbre 2 veces">
+            </div>
+            <button type="submit" class="btn btn--primary">Enviar pedido por WhatsApp 🛵</button>
+            <p class="form__nota">Te confirmamos el total y el tiempo de entrega por WhatsApp antes de cocinar.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo">
+            <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#E85D26"/><path d="M12 30 C12 18 21 12 32 12 C43 12 52 18 52 30 L52 31 C52 32.6 50.6 34 49 34 L15 34 C13.4 34 12 32.6 12 31 Z" fill="#F8BC66"/><path d="M13 36 L51 36 L51 38 C51 39 50 40 49 40 L46 40 L46 43 C46 45.4 42 45.4 42 43 L42 40 L34 40 L34 45 C34 47.4 30 47.4 30 45 L30 40 L22 40 L22 43.4 C22 45.8 18 45.8 18 43.4 L18 40 L15 40 C14 40 13 39 13 38 Z" fill="#FFD44D"/><rect x="13" y="45" width="38" height="7" rx="3.5" fill="#6B3A22"/><path d="M15 54 H49 C50.6 54 52 55 52 56.5 C52 60 49 62 45 62 L19 62 C15 62 12 60 12 56.5 C12 55 13.4 54 15 54 Z" fill="#EFB05B" transform="translate(0 -3)"/></svg>
+            <strong>BRASA BURGER</strong>
+          </div>
+          <p>Hamburguesería artesanal de barrio. Carne a la brasa, pan de la casa y el cariño de siempre.</p>
+        </div>
+        <div>
+          <h4>Horarios</h4>
+          <ul>
+            <li>Lun a Jue · 12:00 – 22:30</li>
+            <li>Vie y Sáb · 12:00 – 23:30</li>
+            <li>Domingo · 12:00 – 22:00</li>
+            <li>Desayunos: Sáb, Dom y festivos · 9:00 – 12:00</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visítanos</h4>
+          <ul>
+            <li>Av. Irarrázaval 2450, Ñuñoa</li>
+            <li>Santiago, Chile</li>
+            <li><a href="https://wa.me/56940443203?text=Hola%21%20Vengo%20de%20la%20web%20de%20Brasa%20Burger%20%F0%9F%8D%94" target="_blank" rel="noopener noreferrer">+56 9 4044 3203</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Navega</h4>
+          <ul>
+            <li><a href="carta.html">Carta</a></li>
+            <li><a href="reservas.html#mesa">Agendar mesa</a></li>
+            <li><a href="reservas.html#delivery">Pedido a domicilio</a></li>
+            <li><a href="index.html#faq">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bajo">
+        <span>© <span id="anio">2026</span> Brasa Burger · Todos los derechos reservados.</span>
+        <span>Sitio desarrollado por <a href="https://kamextech.vercel.app" target="_blank" rel="noopener noreferrer"><strong>KAMEX Tech</strong></a></span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/56940443203?text=Hola%21%20Vengo%20de%20la%20web%20de%20Brasa%20Burger%20%F0%9F%8D%94%20y%20quiero%20hacer%20un%20pedido."
+     target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9.4 3 4 8.3 4 14.9c0 2.6.8 5 2.3 7L4 29l7.3-2.3c1.9 1 3.8 1.5 4.7 1.5 6.6 0 12-5.3 12-11.9C28 8.3 22.6 3 16 3zm0 21.6c-1.4 0-3.1-.5-4.6-1.4l-.3-.2-4.3 1.4 1.4-4.2-.2-.3c-1.2-1.8-1.9-3.8-1.9-6 0-5.3 4.4-9.7 9.9-9.7s9.9 4.4 9.9 9.7-4.4 9.7-9.9 9.7zm5.5-7.2c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.6 5.7 5 3.3 1.4 3.3.9 3.9.9.6-.1 1.8-.7 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.5-.2z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script src="js/reservas.js"></script>
+</body>
+</html>

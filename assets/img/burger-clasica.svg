@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 460" role="img" aria-label="Smash clásica doble">
+  <defs>
+    <linearGradient id="bunTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8BC66"/>
+      <stop offset=".55" stop-color="#E08A33"/>
+      <stop offset="1" stop-color="#C56E27"/>
+    </linearGradient>
+    <linearGradient id="bunBot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFB05B"/>
+      <stop offset="1" stop-color="#BC6524"/>
+    </linearGradient>
+    <linearGradient id="patty" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7C4728"/>
+      <stop offset="1" stop-color="#4E2A15"/>
+    </linearGradient>
+    <linearGradient id="cheese" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD44D"/>
+      <stop offset="1" stop-color="#F09E1F"/>
+    </linearGradient>
+    <linearGradient id="tomato" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E85543"/>
+      <stop offset="1" stop-color="#C23524"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sombra -->
+  <ellipse cx="256" cy="408" rx="182" ry="19" fill="#3A2314" opacity=".16"/>
+
+  <!-- pan inferior -->
+  <path d="M96 320 H416 C424 320 428 326 428 334 L428 346 C428 364 414 374 396 374 L116 374 C98 374 84 364 84 346 L84 334 C84 326 88 320 96 320 Z" fill="url(#bunBot)"/>
+  <rect x="98" y="318" width="316" height="7" rx="3.5" fill="#F7DFAE"/>
+
+  <!-- carne 2 (smash) -->
+  <rect x="96" y="288" width="320" height="38" rx="19" fill="url(#patty)"/>
+  <path d="M116 297 H180 M212 297 H286 M318 297 H392" stroke="#8B5430" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+
+  <!-- queso 2 -->
+  <path d="M100 272 L412 272 L412 280 C412 284 409 286 405 286 L392 286 L392 297 C392 305 378 305 378 297 L378 286 L332 286 L332 304 C332 312 318 312 318 304 L318 286 L272 286 L272 299 C272 307 258 307 258 299 L258 286 L212 286 L212 306 C212 314 198 314 198 306 L198 286 L154 286 L154 297 C154 305 140 305 140 297 L140 286 L107 286 C103 286 100 284 100 280 Z" fill="url(#cheese)"/>
+
+  <!-- carne 1 (smash) -->
+  <rect x="98" y="240" width="316" height="36" rx="18" fill="url(#patty)"/>
+  <path d="M120 249 H186 M218 249 H290 M322 249 H388" stroke="#8B5430" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+
+  <!-- tomate -->
+  <rect x="108" y="224" width="296" height="20" rx="9" fill="url(#tomato)"/>
+  <rect x="118" y="228" width="276" height="4" rx="2" fill="#F08A76" opacity=".7"/>
+
+  <!-- lechuga -->
+  <path d="M86 208 H426 V216 C418 234 402 238 394 226 C386 240 368 242 360 228 C350 244 332 244 324 230 C314 244 296 244 288 230 C278 246 260 244 252 230 C242 244 224 244 216 228 C206 242 188 242 180 226 C172 238 156 240 148 226 C140 236 126 236 118 224 C108 234 92 230 86 218 Z" fill="#7CB84C"/>
+  <path d="M110 216 Q140 224 168 216 M200 218 Q232 226 262 217 M296 218 Q330 226 362 216" stroke="#9ACD68" stroke-width="4" fill="none" stroke-linecap="round" opacity=".8"/>
+
+  <!-- pan superior -->
+  <path d="M84 196 C84 116 150 60 256 60 C362 60 428 116 428 196 L428 199 C428 209 420 214 410 214 L102 214 C92 214 84 209 84 199 Z" fill="url(#bunTop)"/>
+  <ellipse cx="196" cy="106" rx="76" ry="26" fill="#FFDCA4" opacity=".5"/>
+  <g fill="#FFF0D2" stroke="#E3B877" stroke-width=".8">
+    <ellipse cx="166" cy="128" rx="6.5" ry="3.8" transform="rotate(-18 166 128)"/>
+    <ellipse cx="216" cy="100" rx="6.5" ry="3.8" transform="rotate(10 216 100)"/>
+    <ellipse cx="262" cy="132" rx="6.5" ry="3.8" transform="rotate(-8 262 132)"/>
+    <ellipse cx="308" cy="104" rx="6.5" ry="3.8" transform="rotate(16 308 104)"/>
+    <ellipse cx="348" cy="140" rx="6.5" ry="3.8" transform="rotate(-14 348 140)"/>
+    <ellipse cx="130" cy="168" rx="6.5" ry="3.8" transform="rotate(12 130 168)"/>
+    <ellipse cx="190" cy="176" rx="6.5" ry="3.8" transform="rotate(-6 190 176)"/>
+    <ellipse cx="256" cy="182" rx="6.5" ry="3.8" transform="rotate(8 256 182)"/>
+    <ellipse cx="322" cy="176" rx="6.5" ry="3.8" transform="rotate(-12 322 176)"/>
+    <ellipse cx="378" cy="164" rx="6.5" ry="3.8" transform="rotate(10 378 164)"/>
+    <ellipse cx="286" cy="88" rx="6.5" ry="3.8" transform="rotate(-15 286 88)"/>
+  </g>
+</svg>

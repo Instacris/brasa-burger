@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 460" role="img" aria-label="Hamburguesa hawaiana con piña asada y tocino">
+  <defs>
+    <linearGradient id="bunTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8BC66"/>
+      <stop offset=".55" stop-color="#E08A33"/>
+      <stop offset="1" stop-color="#C56E27"/>
+    </linearGradient>
+    <linearGradient id="bunBot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFB05B"/>
+      <stop offset="1" stop-color="#BC6524"/>
+    </linearGradient>
+    <linearGradient id="patty" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7C4728"/>
+      <stop offset="1" stop-color="#4E2A15"/>
+    </linearGradient>
+    <linearGradient id="cheese" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD44D"/>
+      <stop offset="1" stop-color="#F09E1F"/>
+    </linearGradient>
+    <linearGradient id="pina" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFDE59"/>
+      <stop offset="1" stop-color="#F0B428"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sombra -->
+  <ellipse cx="256" cy="408" rx="182" ry="19" fill="#3A2314" opacity=".16"/>
+
+  <!-- pan inferior -->
+  <path d="M96 320 H416 C424 320 428 326 428 334 L428 346 C428 364 414 374 396 374 L116 374 C98 374 84 364 84 346 L84 334 C84 326 88 320 96 320 Z" fill="url(#bunBot)"/>
+  <rect x="98" y="318" width="316" height="7" rx="3.5" fill="#F7DFAE"/>
+
+  <!-- carne -->
+  <rect x="96" y="278" width="320" height="44" rx="22" fill="url(#patty)"/>
+  <path d="M116 289 H182 M214 289 H288 M320 289 H392" stroke="#8B5430" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+
+  <!-- queso -->
+  <path d="M100 262 L412 262 L412 270 C412 274 409 276 405 276 L392 276 L392 288 C392 296 378 296 378 288 L378 276 L330 276 L330 294 C330 302 316 302 316 294 L316 276 L268 276 L268 290 C268 298 254 298 254 290 L254 276 L208 276 L208 296 C208 304 194 304 194 296 L194 276 L150 276 L150 287 C150 295 136 295 136 287 L136 276 L107 276 C103 276 100 274 100 270 Z" fill="url(#cheese)"/>
+
+  <!-- piña asada (rodaja con hoyo) -->
+  <path d="M110 244 C110 226 176 214 256 214 C336 214 402 226 402 244 C402 262 336 268 256 268 C176 268 110 262 110 244 Z M226 240 C226 235 240 232 256 232 C272 232 286 235 286 240 C286 245 272 248 256 248 C240 248 226 245 226 240 Z" fill="url(#pina)" fill-rule="evenodd"/>
+  <path d="M140 234 L172 252 M196 228 L218 254 M296 228 L318 252 M342 232 L372 250" stroke="#D89A22" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+  <path d="M126 250 Q160 260 200 262 M310 262 Q356 258 388 248" stroke="#B4771B" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+
+  <!-- tocino -->
+  <path d="M84 216 C104 202 124 226 144 214 C164 202 184 228 204 216 C224 204 244 228 264 216 C284 204 304 228 324 216 C344 204 364 226 384 216 C400 208 414 218 424 210 L426 222 C414 232 398 220 380 230 C360 242 340 212 320 228 C300 242 280 212 260 228 C240 242 220 212 200 228 C180 242 160 212 140 228 C122 240 102 218 86 228 Z" fill="#B03A2C" opacity=".97"/>
+
+  <!-- pan superior -->
+  <path d="M84 196 C84 116 150 60 256 60 C362 60 428 116 428 196 L428 199 C428 209 420 214 410 214 L102 214 C92 214 84 209 84 199 Z" fill="url(#bunTop)"/>
+  <ellipse cx="196" cy="106" rx="76" ry="26" fill="#FFDCA4" opacity=".5"/>
+  <g fill="#FFF0D2" stroke="#E3B877" stroke-width=".8">
+    <ellipse cx="170" cy="128" rx="6.5" ry="3.8" transform="rotate(-18 170 128)"/>
+    <ellipse cx="222" cy="100" rx="6.5" ry="3.8" transform="rotate(10 222 100)"/>
+    <ellipse cx="268" cy="132" rx="6.5" ry="3.8" transform="rotate(-8 268 132)"/>
+    <ellipse cx="314" cy="106" rx="6.5" ry="3.8" transform="rotate(16 314 106)"/>
+    <ellipse cx="352" cy="144" rx="6.5" ry="3.8" transform="rotate(-14 352 144)"/>
+    <ellipse cx="134" cy="168" rx="6.5" ry="3.8" transform="rotate(12 134 168)"/>
+    <ellipse cx="196" cy="178" rx="6.5" ry="3.8" transform="rotate(-6 196 178)"/>
+    <ellipse cx="260" cy="184" rx="6.5" ry="3.8" transform="rotate(8 260 184)"/>
+    <ellipse cx="326" cy="176" rx="6.5" ry="3.8" transform="rotate(-12 326 176)"/>
+    <ellipse cx="380" cy="162" rx="6.5" ry="3.8" transform="rotate(10 380 162)"/>
+  </g>
+
+  <!-- piña decorativa al costado -->
+  <g transform="translate(52 300)">
+    <ellipse cx="0" cy="46" rx="30" ry="38" fill="#F0B428"/>
+    <path d="M-26 20 L26 66 M-28 40 L18 74 M-16 12 L28 52" stroke="#C98D1B" stroke-width="3" opacity=".7"/>
+    <path d="M0 8 C-6 -8 -18 -12 -26 -8 C-14 -6 -8 0 0 8 Z" fill="#5C8A34"/>
+    <path d="M0 8 C2 -12 -4 -24 4 -30 C6 -16 8 -4 0 8 Z" fill="#71A24B"/>
+    <path d="M0 8 C10 -6 20 -10 28 -4 C16 -2 8 2 0 8 Z" fill="#5C8A34"/>
+  </g>
+</svg>

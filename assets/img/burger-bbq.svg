@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 460" role="img" aria-label="Hamburguesa BBQ con aros de cebolla y tocino">
+  <defs>
+    <linearGradient id="bunTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8BC66"/>
+      <stop offset=".55" stop-color="#E08A33"/>
+      <stop offset="1" stop-color="#C56E27"/>
+    </linearGradient>
+    <linearGradient id="bunBot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFB05B"/>
+      <stop offset="1" stop-color="#BC6524"/>
+    </linearGradient>
+    <linearGradient id="patty" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7C4728"/>
+      <stop offset="1" stop-color="#4E2A15"/>
+    </linearGradient>
+    <linearGradient id="aro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2BE6A"/>
+      <stop offset="1" stop-color="#D18A33"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sombra -->
+  <ellipse cx="256" cy="408" rx="182" ry="19" fill="#3A2314" opacity=".16"/>
+
+  <!-- pan inferior -->
+  <path d="M96 320 H416 C424 320 428 326 428 334 L428 346 C428 364 414 374 396 374 L116 374 C98 374 84 364 84 346 L84 334 C84 326 88 320 96 320 Z" fill="url(#bunBot)"/>
+  <rect x="98" y="318" width="316" height="7" rx="3.5" fill="#F7DFAE"/>
+
+  <!-- tocino -->
+  <path d="M72 312 C96 296 118 328 142 312 C166 296 188 328 212 312 C236 296 258 328 282 312 C306 296 328 328 352 312 C376 296 398 326 422 312 C434 304 442 312 446 306 L448 320 C436 330 420 316 398 330 C374 346 352 312 328 330 C304 346 282 312 258 330 C234 346 212 312 188 330 C164 346 142 312 118 330 C98 344 78 322 68 328 Z" fill="#B03A2C"/>
+  <path d="M80 318 C104 304 126 334 150 318 C174 304 196 334 220 318 C244 304 266 334 290 318 C314 304 336 334 360 318 C384 304 406 330 428 318" stroke="#F0C9A6" stroke-width="4.5" fill="none" stroke-linecap="round" opacity=".85"/>
+
+  <!-- carne -->
+  <rect x="96" y="270" width="320" height="44" rx="22" fill="url(#patty)"/>
+  <path d="M116 281 H182 M214 281 H288 M320 281 H392" stroke="#8B5430" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+
+  <!-- salsa BBQ goteando -->
+  <path d="M100 252 L412 252 L412 262 C412 266 409 268 405 268 L394 268 L394 282 C394 290 380 290 380 282 L380 268 L334 268 L334 288 C334 296 320 296 320 288 L320 268 L276 268 L276 284 C276 292 262 292 262 284 L262 268 L218 268 L218 290 C218 298 204 298 204 290 L204 268 L160 268 L160 280 C160 288 146 288 146 280 L146 268 L107 268 C103 268 100 266 100 262 Z" fill="#8C3A1E"/>
+
+  <!-- aros de cebolla fritos -->
+  <g>
+    <ellipse cx="166" cy="246" rx="52" ry="26" fill="url(#aro)"/>
+    <ellipse cx="166" cy="246" rx="30" ry="13" fill="#5E3418"/>
+    <ellipse cx="166" cy="243" rx="52" ry="24" fill="none" stroke="#B26F24" stroke-width="3" stroke-dasharray="7 9" opacity=".8"/>
+    <ellipse cx="286" cy="242" rx="56" ry="27" fill="url(#aro)"/>
+    <ellipse cx="286" cy="242" rx="32" ry="13" fill="#5E3418"/>
+    <ellipse cx="286" cy="239" rx="56" ry="25" fill="none" stroke="#B26F24" stroke-width="3" stroke-dasharray="7 9" opacity=".8"/>
+    <ellipse cx="384" cy="248" rx="46" ry="23" fill="url(#aro)"/>
+    <ellipse cx="384" cy="248" rx="26" ry="11" fill="#5E3418"/>
+    <ellipse cx="384" cy="245" rx="46" ry="21" fill="none" stroke="#B26F24" stroke-width="3" stroke-dasharray="7 9" opacity=".8"/>
+  </g>
+
+  <!-- pan superior -->
+  <path d="M84 202 C84 122 150 66 256 66 C362 66 428 122 428 202 L428 205 C428 215 420 220 410 220 L102 220 C92 220 84 215 84 205 Z" fill="url(#bunTop)"/>
+  <ellipse cx="196" cy="112" rx="76" ry="26" fill="#FFDCA4" opacity=".5"/>
+  <g fill="#FFF0D2" stroke="#E3B877" stroke-width=".8">
+    <ellipse cx="168" cy="134" rx="6.5" ry="3.8" transform="rotate(-18 168 134)"/>
+    <ellipse cx="218" cy="106" rx="6.5" ry="3.8" transform="rotate(10 218 106)"/>
+    <ellipse cx="264" cy="138" rx="6.5" ry="3.8" transform="rotate(-8 264 138)"/>
+    <ellipse cx="310" cy="110" rx="6.5" ry="3.8" transform="rotate(16 310 110)"/>
+    <ellipse cx="350" cy="146" rx="6.5" ry="3.8" transform="rotate(-14 350 146)"/>
+    <ellipse cx="132" cy="174" rx="6.5" ry="3.8" transform="rotate(12 132 174)"/>
+    <ellipse cx="192" cy="182" rx="6.5" ry="3.8" transform="rotate(-6 192 182)"/>
+    <ellipse cx="258" cy="188" rx="6.5" ry="3.8" transform="rotate(8 258 188)"/>
+    <ellipse cx="324" cy="182" rx="6.5" ry="3.8" transform="rotate(-12 324 182)"/>
+    <ellipse cx="378" cy="168" rx="6.5" ry="3.8" transform="rotate(10 378 168)"/>
+  </g>
+</svg>

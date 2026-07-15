@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Jugo natural de naranja">
+  <defs>
+    <linearGradient id="jugo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBBB3C"/>
+      <stop offset="1" stop-color="#F08A1D"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="238" rx="76" ry="10" fill="#3A2314" opacity=".14"/>
+  <!-- vaso -->
+  <path d="M84 82 L172 82 L164 226 C163 234 156 240 148 240 L108 240 C100 240 93 234 92 226 Z" fill="#EFE6D8" opacity=".5"/>
+  <path d="M88 108 L168 108 L162 222 C161.5 230 155 235 148 235 L108 235 C101 235 94.5 230 94 222 Z" fill="url(#jugo)"/>
+  <ellipse cx="128" cy="108" rx="40" ry="8" fill="#FBCB6A"/>
+  <!-- hielos -->
+  <g fill="#FDE3A8" stroke="#F5C35C" stroke-width="2">
+    <rect x="104" y="122" width="26" height="26" rx="6" transform="rotate(-12 117 135)"/>
+    <rect x="130" y="150" width="24" height="24" rx="6" transform="rotate(14 142 162)"/>
+  </g>
+  <!-- burbujas -->
+  <g fill="#FDE3A8" opacity=".85">
+    <circle cx="108" cy="190" r="4"/><circle cx="142" cy="200" r="3.2"/><circle cx="122" cy="212" r="2.6"/>
+  </g>
+  <!-- rodaja de naranja en el borde -->
+  <g transform="translate(174 92)">
+    <path d="M0 0 A30 30 0 0 1 0 60 Z" fill="#F08A1D" transform="rotate(-90 15 30)"/>
+    <circle cx="15" cy="15" r="26" fill="#F08A1D"/>
+    <circle cx="15" cy="15" r="21" fill="#FBBB3C"/>
+    <g stroke="#F08A1D" stroke-width="2.4">
+      <path d="M15 15 L15 -4 M15 15 L32 6 M15 15 L34 18 M15 15 L28 30 M15 15 L10 34 M15 15 L-2 26 M15 15 L-4 12 M15 15 L4 -1"/>
+    </g>
+  </g>
+  <!-- hojita -->
+  <path d="M196 78 C204 66 218 64 226 70 C218 78 206 82 196 78 Z" fill="#71A24B"/>
+</svg>

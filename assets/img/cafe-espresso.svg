@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Café espresso con granos de café">
+  <defs>
+    <linearGradient id="tazae" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF7"/>
+      <stop offset="1" stop-color="#E9DCC8"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="218" rx="92" ry="12" fill="#3A2314" opacity=".14"/>
+  <!-- vapor -->
+  <path d="M108 74 C102 58 114 52 110 38 M140 70 C134 54 146 48 142 34" stroke="#C9A98C" stroke-width="5" fill="none" stroke-linecap="round" opacity=".85"/>
+  <!-- platillo -->
+  <ellipse cx="124" cy="196" rx="72" ry="18" fill="#E9DCC8"/>
+  <ellipse cx="124" cy="192" rx="72" ry="18" fill="#FFFDF7"/>
+  <!-- taza -->
+  <path d="M78 108 L170 108 C175 108 179 112 178 117 L172 172 C170.5 184 160 192 148 192 L100 192 C88 192 77.5 184 76 172 L70 117 C69 112 73 108 78 108 Z" fill="url(#tazae)"/>
+  <path d="M176 118 C196 118 204 136 194 150 C187 159 176 162 168 160 L170 146 C176 147 182 145 184 139 C186 133 182 128 174 130 Z" fill="#E9DCC8"/>
+  <ellipse cx="124" cy="110" rx="50" ry="11" fill="#5C3A21"/>
+  <ellipse cx="124" cy="108" rx="44" ry="9" fill="#8A5A2B"/>
+  <path d="M96 104 C110 112 138 112 152 104" stroke="#C9975C" stroke-width="4" fill="none" stroke-linecap="round" opacity=".9"/>
+  <!-- granos -->
+  <g fill="#5C3A21">
+    <ellipse cx="42" cy="212" rx="14" ry="10" transform="rotate(-24 42 212)"/>
+    <ellipse cx="212" cy="206" rx="14" ry="10" transform="rotate(18 212 206)"/>
+    <ellipse cx="230" cy="226" rx="12" ry="9" transform="rotate(-12 230 226)"/>
+  </g>
+  <path d="M34 206 Q42 212 50 218 M204 200 Q212 206 220 212 M222 222 Q230 226 238 230" stroke="#8A5A2B" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Certificado de calidad al día">
+  <defs>
+    <linearGradient id="sello" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5B93F"/>
+      <stop offset="1" stop-color="#E08A1E"/>
+    </linearGradient>
+  </defs>
+  <!-- diploma -->
+  <rect x="30" y="42" width="196" height="150" rx="12" fill="#FFFDF7" stroke="#E8D4B8" stroke-width="3"/>
+  <rect x="44" y="56" width="168" height="122" rx="8" fill="none" stroke="#F2A93B" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <path d="M62 84 H150 M62 104 H194 M62 124 H194 M62 144 H120" stroke="#D8C6AC" stroke-width="7" stroke-linecap="round"/>
+  <!-- medalla -->
+  <path d="M168 158 L158 216 L182 202 L206 216 L196 158 Z" fill="#D8402C"/>
+  <circle cx="182" cy="152" r="34" fill="url(#sello)"/>
+  <circle cx="182" cy="152" r="26" fill="#FFD96B"/>
+  <path d="M170 152 L179 161 L196 142" stroke="#8A5A10" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- brillo -->
+  <path d="M52 30 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 Z" fill="#F2A93B"/>
+  <path d="M216 24 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 Z" fill="#F2C14E"/>
+</svg>

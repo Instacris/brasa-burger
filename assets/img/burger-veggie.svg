@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 460" role="img" aria-label="Hamburguesa veggie de la huerta con palta">
+  <defs>
+    <linearGradient id="bunTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8BC66"/>
+      <stop offset=".55" stop-color="#E08A33"/>
+      <stop offset="1" stop-color="#C56E27"/>
+    </linearGradient>
+    <linearGradient id="bunBot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFB05B"/>
+      <stop offset="1" stop-color="#BC6524"/>
+    </linearGradient>
+    <linearGradient id="vegpatty" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#96913F"/>
+      <stop offset="1" stop-color="#6A662A"/>
+    </linearGradient>
+    <linearGradient id="tomato" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E85543"/>
+      <stop offset="1" stop-color="#C23524"/>
+    </linearGradient>
+    <linearGradient id="palta" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B5D67E"/>
+      <stop offset="1" stop-color="#7FA946"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sombra -->
+  <ellipse cx="256" cy="408" rx="182" ry="19" fill="#3A2314" opacity=".16"/>
+
+  <!-- pan inferior -->
+  <path d="M96 320 H416 C424 320 428 326 428 334 L428 346 C428 364 414 374 396 374 L116 374 C98 374 84 364 84 346 L84 334 C84 326 88 320 96 320 Z" fill="url(#bunBot)"/>
+  <rect x="98" y="318" width="316" height="7" rx="3.5" fill="#F7DFAE"/>
+
+  <!-- medallón veggie con semillas -->
+  <rect x="96" y="274" width="320" height="48" rx="24" fill="url(#vegpatty)"/>
+  <g opacity=".85">
+    <circle cx="140" cy="292" r="4" fill="#D9534F"/><circle cx="178" cy="306" r="3.6" fill="#F2C14E"/>
+    <circle cx="214" cy="288" r="4" fill="#7CB84C"/><circle cx="252" cy="306" r="3.6" fill="#D9534F"/>
+    <circle cx="290" cy="288" r="4" fill="#F2C14E"/><circle cx="328" cy="306" r="3.6" fill="#7CB84C"/>
+    <circle cx="364" cy="290" r="4" fill="#D9534F"/><circle cx="196" cy="316" r="3" fill="#F2C14E"/>
+    <circle cx="312" cy="316" r="3" fill="#D9534F"/>
+  </g>
+
+  <!-- palta -->
+  <g stroke="#6E9840" stroke-width="1.4">
+    <path d="M110 274 C110 252 134 238 156 244 C142 252 134 262 132 274 Z" fill="url(#palta)"/>
+    <path d="M164 272 C168 248 196 236 218 244 C202 250 192 260 188 274 Z" fill="url(#palta)"/>
+    <path d="M222 272 C228 248 256 236 278 245 C262 251 252 260 248 274 Z" fill="url(#palta)"/>
+    <path d="M282 272 C288 248 316 236 338 245 C322 251 312 260 308 274 Z" fill="url(#palta)"/>
+    <path d="M342 272 C348 248 376 237 398 246 C382 252 372 261 368 274 Z" fill="url(#palta)"/>
+  </g>
+
+  <!-- tomate -->
+  <rect x="108" y="248" width="296" height="20" rx="9" fill="url(#tomato)"/>
+  <rect x="118" y="252" width="276" height="4" rx="2" fill="#F08A76" opacity=".7"/>
+
+  <!-- lechuga doble -->
+  <path d="M86 208 H426 V216 C418 234 402 238 394 226 C386 240 368 242 360 228 C350 244 332 244 324 230 C314 244 296 244 288 230 C278 246 260 244 252 230 C242 244 224 244 216 228 C206 242 188 242 180 226 C172 238 156 240 148 226 C140 236 126 236 118 224 C108 234 92 230 86 218 Z" fill="#7CB84C"/>
+  <path d="M96 224 H420 V232 C410 246 396 248 390 238 C382 250 366 250 360 240 C352 252 336 252 330 242 C322 254 306 252 300 242 C292 254 276 252 270 242 C262 254 246 252 240 240 C232 250 216 250 210 240 C202 250 188 248 182 238 C174 246 162 244 156 236 C146 244 132 240 126 232 Z" fill="#5E9C3C" opacity=".9"/>
+
+  <!-- pan superior -->
+  <path d="M84 196 C84 116 150 60 256 60 C362 60 428 116 428 196 L428 199 C428 209 420 214 410 214 L102 214 C92 214 84 209 84 199 Z" fill="url(#bunTop)"/>
+  <ellipse cx="196" cy="106" rx="76" ry="26" fill="#FFDCA4" opacity=".5"/>
+  <g fill="#FFF0D2" stroke="#E3B877" stroke-width=".8">
+    <ellipse cx="170" cy="128" rx="6.5" ry="3.8" transform="rotate(-18 170 128)"/>
+    <ellipse cx="222" cy="100" rx="6.5" ry="3.8" transform="rotate(10 222 100)"/>
+    <ellipse cx="268" cy="132" rx="6.5" ry="3.8" transform="rotate(-8 268 132)"/>
+    <ellipse cx="314" cy="106" rx="6.5" ry="3.8" transform="rotate(16 314 106)"/>
+    <ellipse cx="352" cy="144" rx="6.5" ry="3.8" transform="rotate(-14 352 144)"/>
+    <ellipse cx="134" cy="168" rx="6.5" ry="3.8" transform="rotate(12 134 168)"/>
+    <ellipse cx="196" cy="178" rx="6.5" ry="3.8" transform="rotate(-6 196 178)"/>
+    <ellipse cx="260" cy="184" rx="6.5" ry="3.8" transform="rotate(8 260 184)"/>
+    <ellipse cx="326" cy="176" rx="6.5" ry="3.8" transform="rotate(-12 326 176)"/>
+    <ellipse cx="380" cy="162" rx="6.5" ry="3.8" transform="rotate(10 380 162)"/>
+  </g>
+
+  <!-- hojita decorativa -->
+  <g transform="translate(444 296) rotate(24)">
+    <path d="M0 0 C22 6 30 28 24 48 C6 42 -4 22 0 0 Z" fill="#71A24B"/>
+    <path d="M2 4 C10 18 16 30 22 44" stroke="#4E7A30" stroke-width="2.5" fill="none"/>
+  </g>
+</svg>

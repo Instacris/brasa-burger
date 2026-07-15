@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Nuggets de pollo">
+  <defs>
+    <linearGradient id="nug" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2B95A"/>
+      <stop offset="1" stop-color="#D2892B"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="226" rx="92" ry="12" fill="#3A2314" opacity=".14"/>
+  <!-- salsa -->
+  <path d="M162 150 L226 150 C230 150 233 154 232 158 L226 196 C225 204 218 210 210 210 L182 210 C174 210 167 204 166 196 L160 158 C159 154 158 150 162 150 Z" fill="#FFF3E4"/>
+  <ellipse cx="196" cy="152" rx="32" ry="8" fill="#D8402C"/>
+  <ellipse cx="196" cy="150" rx="26" ry="6" fill="#E85543"/>
+  <!-- nuggets -->
+  <g fill="url(#nug)" stroke="#B9761F" stroke-width="1.5">
+    <path d="M38 160 C30 142 44 126 62 128 C64 114 84 110 94 120 C108 112 124 124 118 138 C130 144 126 162 114 166 L58 172 C46 174 40 168 38 160 Z"/>
+    <path d="M96 196 C88 180 100 164 118 166 C120 152 140 150 150 160 C164 152 178 164 172 178 C184 184 180 200 168 204 L116 208 C104 210 98 204 96 196 Z"/>
+    <path d="M28 208 C24 196 32 186 44 186 C46 176 60 172 68 180 C78 174 90 182 86 192 C96 196 92 208 84 210 L44 214 C36 216 30 214 28 208 Z"/>
+  </g>
+  <g fill="#B9761F" opacity=".5">
+    <circle cx="62" cy="146" r="3.4"/><circle cx="92" cy="140" r="3"/><circle cx="128" cy="184" r="3.4"/>
+    <circle cx="152" cy="180" r="3"/><circle cx="52" cy="198" r="2.8"/><circle cx="108" cy="156" r="2.8"/>
+  </g>
+</svg>

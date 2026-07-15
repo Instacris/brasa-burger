@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#E85D26"/>
+  <!-- pan superior -->
+  <path d="M12 30 C12 18 21 12 32 12 C43 12 52 18 52 30 L52 31 C52 32.6 50.6 34 49 34 L15 34 C13.4 34 12 32.6 12 31 Z" fill="#F8BC66"/>
+  <g fill="#FFF3E4">
+    <ellipse cx="24" cy="22" rx="2.2" ry="1.4" transform="rotate(-14 24 22)"/>
+    <ellipse cx="34" cy="19" rx="2.2" ry="1.4" transform="rotate(10 34 19)"/>
+    <ellipse cx="42" cy="24" rx="2.2" ry="1.4" transform="rotate(-8 42 24)"/>
+  </g>
+  <!-- queso -->
+  <path d="M13 36 L51 36 L51 38 C51 39 50 40 49 40 L46 40 L46 43 C46 45.4 42 45.4 42 43 L42 40 L34 40 L34 45 C34 47.4 30 47.4 30 45 L30 40 L22 40 L22 43.4 C22 45.8 18 45.8 18 43.4 L18 40 L15 40 C14 40 13 39 13 38 Z" fill="#FFD44D"/>
+  <!-- carne -->
+  <rect x="13" y="45" width="38" height="7" rx="3.5" fill="#6B3A22"/>
+  <!-- pan inferior -->
+  <path d="M15 54 H49 C50.6 54 52 55 52 56.5 C52 60 49 62 45 62 L19 62 C15 62 12 60 12 56.5 C12 55 13.4 54 15 54 Z" fill="#EFB05B" transform="translate(0 -3)"/>
+</svg>

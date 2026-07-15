@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300" role="img" aria-label="Malteada de frutilla con frutillas frescas a los lados">
+  <defs>
+    <linearGradient id="shake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F9AEC6"/>
+      <stop offset="1" stop-color="#EC6F9E"/>
+    </linearGradient>
+    <linearGradient id="fresa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8504F"/>
+      <stop offset="1" stop-color="#C22C3B"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="160" cy="278" rx="120" ry="13" fill="#3A2314" opacity=".14"/>
+
+  <!-- bombilla -->
+  <rect x="182" y="18" width="13" height="96" rx="6" fill="#E8504F" transform="rotate(14 188 66)"/>
+  <path d="M186 30 l12 3 M182 46 l12 3 M178 62 l12 3" stroke="#FFF3E4" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- vaso -->
+  <path d="M112 92 L208 92 L196 246 C195 256 188 262 179 262 L141 262 C132 262 125 256 124 246 Z" fill="url(#shake)"/>
+  <path d="M124 112 L196 112 M126 140 L194 140" stroke="#F9C6D8" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+  <path d="M132 100 L142 250" stroke="#FDE3ED" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+  <ellipse cx="160" cy="92" rx="48" ry="10" fill="#F9C6D8"/>
+
+  <!-- crema batida -->
+  <path d="M116 92 C108 70 128 62 138 70 C134 50 160 44 168 58 C172 40 198 44 196 60 C212 58 218 76 206 84 C214 90 208 98 200 96 L120 96 C112 96 112 96 116 92 Z" fill="#FFFDF7"/>
+  <path d="M130 78 Q146 68 160 76 M168 66 Q182 60 192 70" stroke="#EBD9C0" stroke-width="4" fill="none" stroke-linecap="round" opacity=".8"/>
+
+  <!-- frutilla en el borde -->
+  <g transform="translate(120 76) rotate(-18)">
+    <path d="M0 0 C-14 0 -20 12 -14 24 C-10 32 -4 38 0 40 C4 38 10 32 14 24 C20 12 14 0 0 0 Z" fill="url(#fresa)"/>
+    <path d="M-8 -2 L0 6 L8 -2 L4 8 L0 4 L-4 8 Z" fill="#5C8A34"/>
+    <g fill="#F7D08A"><circle cx="-6" cy="14" r="1.6"/><circle cx="2" cy="20" r="1.6"/><circle cx="7" cy="12" r="1.6"/></g>
+  </g>
+
+  <!-- frutillas decorativas a los lados -->
+  <g transform="translate(56 226) rotate(-10)">
+    <path d="M0 0 C-20 0 -30 16 -22 34 C-16 46 -6 54 0 58 C6 54 16 46 22 34 C30 16 20 0 0 0 Z" fill="url(#fresa)"/>
+    <path d="M-12 -4 L0 6 L12 -4 L6 10 L0 4 L-6 10 Z" fill="#5C8A34"/>
+    <g fill="#F7D08A"><circle cx="-10" cy="18" r="2.2"/><circle cx="0" cy="28" r="2.2"/><circle cx="10" cy="16" r="2.2"/><circle cx="-4" cy="40" r="2.2"/><circle cx="8" cy="36" r="2.2"/></g>
+  </g>
+  <g transform="translate(268 220) rotate(14)">
+    <path d="M0 0 C-18 0 -27 14 -20 30 C-15 41 -5 48 0 52 C5 48 15 41 20 30 C27 14 18 0 0 0 Z" fill="url(#fresa)"/>
+    <path d="M-11 -4 L0 5 L11 -4 L5 9 L0 3 L-5 9 Z" fill="#5C8A34"/>
+    <g fill="#F7D08A"><circle cx="-8" cy="16" r="2"/><circle cx="2" cy="26" r="2"/><circle cx="9" cy="14" r="2"/><circle cx="-2" cy="36" r="2"/></g>
+  </g>
+  <g transform="translate(286 268) rotate(40)">
+    <path d="M0 0 C-12 0 -18 10 -13 20 C-10 27 -3 32 0 34 C3 32 10 27 13 20 C18 10 12 0 0 0 Z" fill="url(#fresa)"/>
+    <path d="M-7 -2 L0 4 L7 -2 L3 6 L0 2 L-3 6 Z" fill="#5C8A34"/>
+  </g>
+</svg>

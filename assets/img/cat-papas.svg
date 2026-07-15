@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Papas fritas">
+  <defs>
+    <linearGradient id="fry" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD96B"/>
+      <stop offset="1" stop-color="#EFB13C"/>
+    </linearGradient>
+    <linearGradient id="box" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E64A3A"/>
+      <stop offset="1" stop-color="#C22F20"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="230" rx="86" ry="12" fill="#3A2314" opacity=".14"/>
+  <!-- papas -->
+  <g fill="url(#fry)" stroke="#D89B2B" stroke-width="1.5">
+    <rect x="70" y="52" width="20" height="120" rx="6" transform="rotate(-14 80 112)"/>
+    <rect x="100" y="38" width="20" height="130" rx="6" transform="rotate(-5 110 103)"/>
+    <rect x="128" y="34" width="20" height="132" rx="6" transform="rotate(3 138 100)"/>
+    <rect x="156" y="44" width="20" height="124" rx="6" transform="rotate(10 166 106)"/>
+    <rect x="180" y="60" width="20" height="112" rx="6" transform="rotate(17 190 116)"/>
+  </g>
+  <!-- caja -->
+  <path d="M56 118 L74 224 C75.5 232 82 238 90 238 L166 238 C174 238 180.5 232 182 224 L200 118 Z" fill="url(#box)"/>
+  <path d="M56 118 L60 142 L196 142 L200 118 Z" fill="#A82418"/>
+  <circle cx="128" cy="186" r="26" fill="#FFF3E4"/>
+  <path d="M116 196 C116 178 128 176 128 166 C128 176 140 178 140 196 Q134 190 128 196 Q122 190 116 196 Z" fill="#E64A3A"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Empanadas">
+  <defs>
+    <linearGradient id="masa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2C374"/>
+      <stop offset="1" stop-color="#D9953C"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="220" rx="92" ry="12" fill="#3A2314" opacity=".14"/>
+  <!-- cuerpo -->
+  <path d="M34 190 C34 128 76 84 128 84 C180 84 222 128 222 190 C222 198 216 204 208 204 L48 204 C40 204 34 198 34 190 Z" fill="url(#masa)"/>
+  <!-- repulgue (borde trenzado) -->
+  <g fill="#C8842E">
+    <circle cx="52" cy="160" r="10"/>
+    <circle cx="66" cy="138" r="10"/>
+    <circle cx="84" cy="120" r="10"/>
+    <circle cx="106" cy="108" r="10"/>
+    <circle cx="128" cy="104" r="10"/>
+    <circle cx="150" cy="108" r="10"/>
+    <circle cx="172" cy="120" r="10"/>
+    <circle cx="190" cy="138" r="10"/>
+    <circle cx="204" cy="160" r="10"/>
+  </g>
+  <path d="M44 182 C44 132 82 94 128 94 C174 94 212 132 212 182 C212 190 208 194 200 194 L56 194 C48 194 44 190 44 182 Z" fill="url(#masa)"/>
+  <!-- dorado y vents -->
+  <path d="M84 150 Q128 134 172 150" stroke="#B26F24" stroke-width="5" fill="none" stroke-linecap="round" opacity=".6"/>
+  <path d="M104 172 H120 M136 172 H152" stroke="#B26F24" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+  <!-- vapor -->
+  <path d="M108 74 C104 62 112 58 110 48 M128 72 C124 60 132 56 130 44 M148 74 C144 62 152 58 150 48" stroke="#C9A98C" stroke-width="4.5" fill="none" stroke-linecap="round" opacity=".8"/>
+</svg>

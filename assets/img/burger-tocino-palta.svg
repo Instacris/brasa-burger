@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 460" role="img" aria-label="Hamburguesa con tocino, tomate y palta">
+  <defs>
+    <linearGradient id="bunTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8BC66"/>
+      <stop offset=".55" stop-color="#E08A33"/>
+      <stop offset="1" stop-color="#C56E27"/>
+    </linearGradient>
+    <linearGradient id="bunBot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFB05B"/>
+      <stop offset="1" stop-color="#BC6524"/>
+    </linearGradient>
+    <linearGradient id="patty" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7C4728"/>
+      <stop offset="1" stop-color="#4E2A15"/>
+    </linearGradient>
+    <linearGradient id="tomato" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E85543"/>
+      <stop offset="1" stop-color="#C23524"/>
+    </linearGradient>
+    <linearGradient id="palta" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B5D67E"/>
+      <stop offset="1" stop-color="#7FA946"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sombra -->
+  <ellipse cx="256" cy="408" rx="182" ry="19" fill="#3A2314" opacity=".16"/>
+
+  <!-- pan inferior -->
+  <path d="M96 320 H416 C424 320 428 326 428 334 L428 346 C428 364 414 374 396 374 L116 374 C98 374 84 364 84 346 L84 334 C84 326 88 320 96 320 Z" fill="url(#bunBot)"/>
+  <rect x="98" y="318" width="316" height="7" rx="3.5" fill="#F7DFAE"/>
+
+  <!-- carne -->
+  <rect x="96" y="278" width="320" height="44" rx="22" fill="url(#patty)"/>
+  <path d="M116 289 H182 M214 289 H288 M320 289 H392" stroke="#8B5430" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+
+  <!-- tocino (2 tiras onduladas que sobresalen) -->
+  <g>
+    <path d="M66 272 C90 254 112 290 136 272 C160 254 182 290 206 272 C230 254 252 290 276 272 C300 254 322 290 346 272 C370 254 392 290 416 272 C432 260 444 272 448 264 L450 280 C438 292 420 276 398 292 C374 310 352 274 328 292 C304 310 282 274 258 292 C234 310 212 274 188 292 C164 310 142 274 118 292 C96 308 74 282 64 290 Z" fill="#B03A2C"/>
+    <path d="M74 280 C98 264 120 296 144 280 C168 264 190 296 214 280 C238 264 260 296 284 280 C308 264 330 296 354 280 C378 264 400 294 424 280" stroke="#F0C9A6" stroke-width="4.5" fill="none" stroke-linecap="round" opacity=".85"/>
+  </g>
+
+  <!-- tomate -->
+  <rect x="108" y="252" width="296" height="20" rx="9" fill="url(#tomato)"/>
+  <rect x="118" y="256" width="276" height="4" rx="2" fill="#F08A76" opacity=".7"/>
+
+  <!-- palta (láminas en abanico) -->
+  <g stroke="#6E9840" stroke-width="1.4">
+    <path d="M104 252 C104 230 128 216 150 222 C136 230 128 240 126 252 Z" fill="url(#palta)"/>
+    <path d="M158 250 C162 226 190 214 212 222 C196 228 186 238 182 252 Z" fill="url(#palta)"/>
+    <path d="M216 250 C222 226 250 214 272 223 C256 229 246 238 242 252 Z" fill="url(#palta)"/>
+    <path d="M276 250 C282 226 310 214 332 223 C316 229 306 238 302 252 Z" fill="url(#palta)"/>
+    <path d="M336 250 C342 226 370 215 390 224 C376 230 366 239 362 252 Z" fill="url(#palta)"/>
+    <path d="M394 252 C398 232 418 222 434 228 C422 234 414 242 412 254 Z" fill="url(#palta)"/>
+  </g>
+  <path d="M116 240 C124 230 134 224 144 226 M172 238 C180 228 192 222 202 226 M230 238 C238 228 250 222 260 226 M290 238 C298 228 310 222 320 226 M350 239 C358 229 368 224 378 227" stroke="#D8EAAE" stroke-width="4" fill="none" stroke-linecap="round" opacity=".9"/>
+
+  <!-- pan superior -->
+  <path d="M84 196 C84 116 150 60 256 60 C362 60 428 116 428 196 L428 199 C428 209 420 214 410 214 L102 214 C92 214 84 209 84 199 Z" fill="url(#bunTop)"/>
+  <ellipse cx="196" cy="106" rx="76" ry="26" fill="#FFDCA4" opacity=".5"/>
+  <g fill="#FFF0D2" stroke="#E3B877" stroke-width=".8">
+    <ellipse cx="170" cy="126" rx="6.5" ry="3.8" transform="rotate(-18 170 126)"/>
+    <ellipse cx="222" cy="98" rx="6.5" ry="3.8" transform="rotate(10 222 98)"/>
+    <ellipse cx="268" cy="130" rx="6.5" ry="3.8" transform="rotate(-8 268 130)"/>
+    <ellipse cx="314" cy="104" rx="6.5" ry="3.8" transform="rotate(16 314 104)"/>
+    <ellipse cx="352" cy="142" rx="6.5" ry="3.8" transform="rotate(-14 352 142)"/>
+    <ellipse cx="134" cy="166" rx="6.5" ry="3.8" transform="rotate(12 134 166)"/>
+    <ellipse cx="196" cy="176" rx="6.5" ry="3.8" transform="rotate(-6 196 176)"/>
+    <ellipse cx="260" cy="182" rx="6.5" ry="3.8" transform="rotate(8 260 182)"/>
+    <ellipse cx="326" cy="174" rx="6.5" ry="3.8" transform="rotate(-12 326 174)"/>
+    <ellipse cx="380" cy="160" rx="6.5" ry="3.8" transform="rotate(10 380 160)"/>
+  </g>
+
+  <!-- media palta decorativa al costado -->
+  <g transform="translate(430 300) rotate(14)">
+    <ellipse cx="0" cy="34" rx="34" ry="44" fill="#5C8A34"/>
+    <ellipse cx="0" cy="34" rx="27" ry="37" fill="#C8DF8E"/>
+    <circle cx="0" cy="42" r="13" fill="#8A5A2B"/>
+    <circle cx="-4" cy="38" r="4.5" fill="#B07D45"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Helados y sundaes">
+  <defs>
+    <linearGradient id="copa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BFE3F2"/>
+      <stop offset="1" stop-color="#8FC4DE"/>
+    </linearGradient>
+    <linearGradient id="cremah" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF7"/>
+      <stop offset="1" stop-color="#F3E2C8"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="234" rx="70" ry="10" fill="#3A2314" opacity=".14"/>
+  <!-- copa -->
+  <path d="M70 120 C70 158 96 178 120 182 L120 214 L100 214 C94 214 90 218 90 224 L90 230 L166 230 L166 224 C166 218 162 214 156 214 L136 214 L136 182 C160 178 186 158 186 120 Z" fill="url(#copa)"/>
+  <!-- helado en espiral -->
+  <path d="M74 122 C70 96 88 92 96 100 C90 74 116 68 124 82 C126 58 156 60 156 80 C172 70 188 86 178 100 C192 102 190 122 182 122 Z" fill="url(#cremah)"/>
+  <path d="M88 106 Q104 96 118 104 M124 92 Q140 84 154 94" stroke="#E4CBA8" stroke-width="4" fill="none" stroke-linecap="round" opacity=".8"/>
+  <!-- salsa frutilla -->
+  <path d="M76 120 L180 120 L180 126 C180 132 174 134 170 130 C168 140 156 140 154 132 C150 144 136 142 134 132 C130 144 116 144 114 132 C110 142 98 142 96 132 C92 138 82 136 80 130 C77 128 76 124 76 120 Z" fill="#E0475B"/>
+  <!-- chispas -->
+  <g stroke-linecap="round" stroke-width="4">
+    <path d="M100 88 l6 -4" stroke="#E0475B"/>
+    <path d="M134 72 l6 3" stroke="#71A24B"/>
+    <path d="M160 96 l-6 4" stroke="#F2A93B"/>
+    <path d="M118 78 l-5 4" stroke="#8A63C9"/>
+  </g>
+  <!-- guinda -->
+  <circle cx="128" cy="58" r="11" fill="#C82C40"/>
+  <path d="M128 48 C128 38 136 34 142 32" stroke="#5C8A34" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <ellipse cx="124" cy="54" rx="3.4" ry="2.4" fill="#F08A76" opacity=".85"/>
+</svg>

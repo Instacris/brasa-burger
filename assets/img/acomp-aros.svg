@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Aros de cebolla">
+  <defs>
+    <linearGradient id="aros" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2BE6A"/>
+      <stop offset="1" stop-color="#D18A33"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="230" rx="92" ry="12" fill="#3A2314" opacity=".14"/>
+  <!-- aros apilados -->
+  <g>
+    <ellipse cx="128" cy="196" rx="88" ry="34" fill="url(#aros)"/>
+    <ellipse cx="128" cy="196" rx="50" ry="17" fill="#FBEDDC"/>
+    <ellipse cx="128" cy="192" rx="88" ry="31" fill="none" stroke="#B26F24" stroke-width="4" stroke-dasharray="8 10" opacity=".75"/>
+  </g>
+  <g transform="translate(-34 -52) rotate(-8 128 160)">
+    <ellipse cx="128" cy="160" rx="70" ry="27" fill="url(#aros)"/>
+    <ellipse cx="128" cy="160" rx="40" ry="14" fill="#FBEDDC"/>
+    <ellipse cx="128" cy="157" rx="70" ry="24" fill="none" stroke="#B26F24" stroke-width="3.4" stroke-dasharray="7 9" opacity=".75"/>
+  </g>
+  <g transform="translate(52 -84) rotate(10 128 150)">
+    <ellipse cx="128" cy="150" rx="58" ry="23" fill="url(#aros)"/>
+    <ellipse cx="128" cy="150" rx="33" ry="12" fill="#FBEDDC"/>
+    <ellipse cx="128" cy="147" rx="58" ry="20" fill="none" stroke="#B26F24" stroke-width="3" stroke-dasharray="6 8" opacity=".75"/>
+  </g>
+</svg>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brasa Burger · Hamburguesería artesanal a la brasa</title>
+  <meta name="description" content="Hamburguesas artesanales a la brasa en Santiago: smash burgers, tocino y palta, malteadas, papas fritas y más. Agenda tu mesa o pide a domicilio.">
+  <meta name="theme-color" content="#E85D26">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Brasa Burger · Hamburguesería artesanal">
+  <meta property="og:description" content="Smash burgers a la brasa, malteadas y más. Agenda tu mesa o pide a domicilio.">
+  <meta property="og:image" content="assets/img/burger-clasica.svg">
+  <meta property="og:locale" content="es_CL">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="index.html" class="nav__logo" aria-label="Brasa Burger, inicio">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#E85D26"/><path d="M12 30 C12 18 21 12 32 12 C43 12 52 18 52 30 L52 31 C52 32.6 50.6 34 49 34 L15 34 C13.4 34 12 32.6 12 31 Z" fill="#F8BC66"/><g fill="#FFF3E4"><ellipse cx="24" cy="22" rx="2.2" ry="1.4" transform="rotate(-14 24 22)"/><ellipse cx="34" cy="19" rx="2.2" ry="1.4" transform="rotate(10 34 19)"/><ellipse cx="42" cy="24" rx="2.2" ry="1.4" transform="rotate(-8 42 24)"/></g><path d="M13 36 L51 36 L51 38 C51 39 50 40 49 40 L46 40 L46 43 C46 45.4 42 45.4 42 43 L42 40 L34 40 L34 45 C34 47.4 30 47.4 30 45 L30 40 L22 40 L22 43.4 C22 45.8 18 45.8 18 43.4 L18 40 L15 40 C14 40 13 39 13 38 Z" fill="#FFD44D"/><rect x="13" y="45" width="38" height="7" rx="3.5" fill="#6B3A22"/><path d="M15 54 H49 C50.6 54 52 55 52 56.5 C52 60 49 62 45 62 L19 62 C15 62 12 60 12 56.5 C12 55 13.4 54 15 54 Z" fill="#EFB05B" transform="translate(0 -3)"/></svg>
+        <span class="nav__logo-texto">
+          <strong>BRASA BURGER</strong>
+          <span>A la brasa · con calma</span>
+        </span>
+      </a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html" class="is-activa">Inicio</a>
+        <a href="carta.html">Carta</a>
+        <a href="reservas.html">Agendar &amp; Delivery</a>
+        <a href="index.html#faq">Preguntas</a>
+        <a href="reservas.html#delivery" class="btn btn--primary">Pedir ahora</a>
+      </nav>
+
+      <button class="nav__burger" id="navBurger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <!-- ingredientes flotando -->
+      <svg class="hero__flotante" style="top:12%; left:4%" width="54" height="54" viewBox="0 0 54 54" aria-hidden="true"><circle cx="27" cy="27" r="24" fill="#E85543"/><circle cx="27" cy="27" r="19" fill="#F08A76"/><g stroke="#E85543" stroke-width="2.4"><path d="M27 27 L27 10 M27 27 L42 18 M27 27 L44 30 M27 27 L36 42 M27 27 L18 42 M27 27 L10 30 M27 27 L12 16"/></g></svg>
+      <svg class="hero__flotante" style="top:64%; left:8%" width="48" height="48" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 26 C2 14 14 4 26 8 C40 2 48 16 42 26 C46 36 34 44 24 40 C12 46 2 36 6 26 Z" fill="#7CB84C"/><path d="M12 24 Q22 18 34 22" stroke="#9ACD68" stroke-width="3.4" fill="none" stroke-linecap="round"/></svg>
+      <svg class="hero__flotante" style="top:18%; right:5%" width="50" height="50" viewBox="0 0 50 50" aria-hidden="true"><circle cx="25" cy="25" r="20" fill="none" stroke="#A35BA0" stroke-width="7"/><circle cx="25" cy="25" r="20" fill="none" stroke="#E4C2E4" stroke-width="2.4"/></svg>
+      <svg class="hero__flotante" style="top:74%; right:9%" width="44" height="44" viewBox="0 0 44 44" aria-hidden="true"><rect x="6" y="14" width="14" height="26" rx="5" fill="#F2C14E" transform="rotate(-14 13 27)"/><rect x="24" y="10" width="14" height="30" rx="5" fill="#EFB13C" transform="rotate(10 31 25)"/></svg>
+      <svg class="hero__flotante" style="top:40%; left:44%" width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><ellipse cx="15" cy="15" rx="10" ry="6" fill="#FFF0D2" stroke="#E3B877" transform="rotate(-16 15 15)"/></svg>
+
+      <div class="container hero__grid">
+        <div>
+          <span class="hero__eyebrow">🔥 Hamburguesería artesanal</span>
+          <h1>El sabor de la brasa,<br>en tu <span class="resaltado">hamburguesa</span></h1>
+          <p class="hero__copy">
+            Carne madurada, pan de la casa y ingredientes frescos de la feria.
+            Cada burger se arma a mano y pasa por la brasa antes de llegar a tu mesa… o a tu puerta.
+          </p>
+          <div class="hero__acciones">
+            <a href="carta.html" class="btn btn--primary">Ver la carta 🍔</a>
+            <a href="reservas.html" class="btn btn--ghost">Agendar mesa</a>
+          </div>
+          <div class="hero__datos">
+            <div><strong>+12</strong><span>burgers de autor</span></div>
+            <div><strong>4.9★</strong><span>valoración clientes</span></div>
+            <div><strong>35 min</strong><span>delivery promedio</span></div>
+          </div>
+        </div>
+
+        <div class="hero__escenario" aria-label="Hamburguesas destacadas">
+          <div class="hero__aro"></div>
+          <div class="hero__plato"></div>
+          <div class="hero__burgers" id="heroBurgers">
+            <figure class="hero__burger is-activa" data-nombre="Smash Clásica de la Casa">
+              <img src="assets/img/burger-clasica.svg" alt="Smash burger clásica doble con queso y lechuga" width="430" height="386">
+            </figure>
+            <figure class="hero__burger" data-nombre="Tocino, Tomate &amp; Palta">
+              <img src="assets/img/burger-tocino-palta.svg" alt="Hamburguesa con tocino crujiente, tomate y palta" width="430" height="386">
+            </figure>
+            <figure class="hero__burger" data-nombre="Doble Queso &amp; Cebolla Morada">
+              <img src="assets/img/burger-doble-queso.svg" alt="Hamburguesa doble con extra queso derretido y cebolla morada" width="430" height="386">
+            </figure>
+            <figure class="hero__burger" data-nombre="BBQ Texana con Aros">
+              <img src="assets/img/burger-bbq.svg" alt="Hamburguesa BBQ con aros de cebolla y tocino" width="430" height="386">
+            </figure>
+          </div>
+          <div class="hero__nombre" id="heroNombre">Smash Clásica de la Casa</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CINTA ================= -->
+    <div class="cinta" aria-hidden="true">
+      <div class="cinta__pista">
+        <span>Smash a la brasa</span><span>Pan de la casa</span><span>Palta fresca</span><span>Malteadas cremosas</span><span>Delivery calientito</span>
+        <span>Smash a la brasa</span><span>Pan de la casa</span><span>Palta fresca</span><span>Malteadas cremosas</span><span>Delivery calientito</span>
+      </div>
+    </div>
+
+    <!-- ================= CATEGORÍAS ================= -->
+    <section class="seccion" id="categorias">
+      <div class="container">
+        <div class="seccion__cabeza reveal">
+          <span class="seccion__eyebrow">Más que burgers</span>
+          <h2>¿Qué te tinca hoy?</h2>
+          <p>Todo lo que sale de nuestra cocina, listo para acompañar tu antojo.</p>
+        </div>
+        <div class="cats">
+          <a class="cat reveal" href="carta.html#acompanamientos">
+            <img src="assets/img/cat-papas.svg" alt="" aria-hidden="true">
+            <strong>Papas Fritas</strong>
+            <span>Ver opciones →</span>
+          </a>
+          <a class="cat reveal" data-delay="1" href="carta.html#postres">
+            <img src="assets/img/cat-helado.svg" alt="" aria-hidden="true">
+            <strong>Helados</strong>
+            <span>Ver opciones →</span>
+          </a>
+          <a class="cat reveal" data-delay="2" href="carta.html#desayunos">
+            <img src="assets/img/cat-desayuno.svg" alt="" aria-hidden="true">
+            <strong>Desayunos</strong>
+            <span>Ver opciones →</span>
+          </a>
+          <a class="cat reveal" data-delay="3" href="carta.html#acompanamientos">
+            <img src="assets/img/cat-empanada.svg" alt="" aria-hidden="true">
+            <strong>Empanadas</strong>
+            <span>Ver opciones →</span>
+          </a>
+          <a class="cat reveal" data-delay="4" href="carta.html#acompanamientos">
+            <img src="assets/img/cat-nuggets.svg" alt="" aria-hidden="true">
+            <strong>Nuggets de Pollo</strong>
+            <span>Ver opciones →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+    <section class="seccion seccion--tinte">
+      <div class="container">
+        <div class="seccion__cabeza reveal">
+          <span class="seccion__eyebrow">Nuestro compromiso</span>
+          <h2>Comer rico, sin letra chica</h2>
+        </div>
+        <div class="features">
+          <article class="feature reveal">
+            <span class="feature__numero">1</span>
+            <img src="assets/img/feat-certificado.svg" alt="Certificado de calidad">
+            <h3>Calidad certificada</h3>
+            <p>Establecimiento con su certificado de calidad al día: resolución sanitaria vigente y proveedores locales auditados.</p>
+          </article>
+          <article class="feature reveal" data-delay="1">
+            <span class="feature__numero">2</span>
+            <img src="assets/img/feat-perfil.svg" alt="Perfil de cliente frecuente">
+            <h3>Club Brasa</h3>
+            <p>Si eres cliente seguido, ingresa con tu perfil para acceder a descuentos y premios únicos: burgers gratis, malteadas dobles y más.</p>
+          </article>
+          <article class="feature reveal" data-delay="2">
+            <span class="feature__numero">3</span>
+            <img src="assets/img/feat-delivery.svg" alt="Pedido cálido y ordenado">
+            <h3>Llega cálido y ordenado</h3>
+            <p>Empaques térmicos y sellados para que tu pedido llegue calientito, ordenado y tal como salió de la cocina.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="seccion" id="faq">
+      <div class="container">
+        <div class="seccion__cabeza reveal">
+          <span class="seccion__eyebrow">Dudas frecuentes</span>
+          <h2>Preguntas que nos hacen siempre</h2>
+        </div>
+        <div class="faq reveal">
+          <div class="faq__item">
+            <button class="faq__pregunta" aria-expanded="false">
+              ¿Hacen delivery? ¿Hasta qué comunas llegan?
+              <span class="faq__icono">+</span>
+            </button>
+            <div class="faq__respuesta"><p>Sí. Repartimos con equipo propio en un radio de 5 km (Ñuñoa, Providencia y Macul) y por apps al resto de Santiago. El tiempo promedio es de 35 minutos y el pedido viaja en empaque térmico sellado.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__pregunta" aria-expanded="false">
+              ¿Puedo reservar mesa para grupos grandes?
+              <span class="faq__icono">+</span>
+            </button>
+            <div class="faq__respuesta"><p>Claro. Desde la página de <a href="reservas.html"><strong>Agendar &amp; Delivery</strong></a> puedes reservar hasta 12 personas. Para cumpleaños o eventos más grandes, escríbenos por WhatsApp y armamos un menú especial.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__pregunta" aria-expanded="false">
+              ¿Tienen opciones veggie o sin gluten?
+              <span class="faq__icono">+</span>
+            </button>
+            <div class="faq__respuesta"><p>Tenemos la <strong>Veggie de la Huerta</strong> (medallón de lentejas y garbanzos) y podemos preparar cualquier burger en formato bowl sin pan. Avísanos por alergias: la cocina maneja protocolos para trazas.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__pregunta" aria-expanded="false">
+              ¿Cómo funcionan los descuentos del Club Brasa?
+              <span class="faq__icono">+</span>
+            </button>
+            <div class="faq__respuesta"><p>Al pedir por WhatsApp o en el local, das tu nombre y teléfono y sumas puntos automáticamente. Cada 5 visitas hay premio: descuentos, papas gratis o una malteada doble. Sin apps ni letras chicas.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__pregunta" aria-expanded="false">
+              ¿Qué medios de pago aceptan?
+              <span class="faq__icono">+</span>
+            </button>
+            <div class="faq__respuesta"><p>Efectivo, tarjetas de débito/crédito y transferencia. En delivery puedes pagar por link de pago antes del despacho para que el pedido salga más rápido.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__pregunta" aria-expanded="false">
+              ¿Sirven desayunos todos los días?
+              <span class="faq__icono">+</span>
+            </button>
+            <div class="faq__respuesta"><p>Los desayunos (tostadas con palta, huevos y café de grano) se sirven sábados, domingos y festivos de 9:00 a 12:00. El resto de la carta parte a las 12:00.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="seccion" style="padding-top:0">
+      <div class="container">
+        <div class="cta reveal">
+          <div>
+            <h2>¿Mesa en el local o burger en tu puerta?</h2>
+            <p>Agenda tu visita al establecimiento o arma tu pedido a domicilio en menos de un minuto. Tú eliges dónde se disfruta la brasa.</p>
+          </div>
+          <div class="cta__opciones">
+            <a class="cta__opcion" href="reservas.html#mesa">
+              <span class="cta__opcion-icono">🍽️</span>
+              <span><strong>Agendar en el local</strong><span>Reserva tu mesa con fecha y hora</span></span>
+              <span class="flecha">→</span>
+            </a>
+            <a class="cta__opcion" href="reservas.html#delivery">
+              <span class="cta__opcion-icono">🛵</span>
+              <span><strong>Pedido a domicilio</strong><span>Llega cálido, sellado y ordenado</span></span>
+              <span class="flecha">→</span>
+            </a>
+            <a class="cta__opcion" href="carta.html">
+              <span class="cta__opcion-icono">📖</span>
+              <span><strong>Ver la carta completa</strong><span>Burgers, malteadas, cafés y más</span></span>
+              <span class="flecha">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo">
+            <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#E85D26"/><path d="M12 30 C12 18 21 12 32 12 C43 12 52 18 52 30 L52 31 C52 32.6 50.6 34 49 34 L15 34 C13.4 34 12 32.6 12 31 Z" fill="#F8BC66"/><path d="M13 36 L51 36 L51 38 C51 39 50 40 49 40 L46 40 L46 43 C46 45.4 42 45.4 42 43 L42 40 L34 40 L34 45 C34 47.4 30 47.4 30 45 L30 40 L22 40 L22 43.4 C22 45.8 18 45.8 18 43.4 L18 40 L15 40 C14 40 13 39 13 38 Z" fill="#FFD44D"/><rect x="13" y="45" width="38" height="7" rx="3.5" fill="#6B3A22"/><path d="M15 54 H49 C50.6 54 52 55 52 56.5 C52 60 49 62 45 62 L19 62 C15 62 12 60 12 56.5 C12 55 13.4 54 15 54 Z" fill="#EFB05B" transform="translate(0 -3)"/></svg>
+            <strong>BRASA BURGER</strong>
+          </div>
+          <p>Hamburguesería artesanal de barrio. Carne a la brasa, pan de la casa y el cariño de siempre.</p>
+        </div>
+        <div>
+          <h4>Horarios</h4>
+          <ul>
+            <li>Lun a Jue · 12:00 – 22:30</li>
+            <li>Vie y Sáb · 12:00 – 23:30</li>
+            <li>Domingo · 12:00 – 22:00</li>
+            <li>Desayunos: Sáb, Dom y festivos · 9:00 – 12:00</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visítanos</h4>
+          <ul>
+            <li>Av. Irarrázaval 2450, Ñuñoa</li>
+            <li>Santiago, Chile</li>
+            <li><a href="https://wa.me/56940443203?text=Hola%21%20Vengo%20de%20la%20web%20de%20Brasa%20Burger%20%F0%9F%8D%94" target="_blank" rel="noopener noreferrer">+56 9 4044 3203</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Navega</h4>
+          <ul>
+            <li><a href="carta.html">Carta</a></li>
+            <li><a href="reservas.html#mesa">Agendar mesa</a></li>
+            <li><a href="reservas.html#delivery">Pedido a domicilio</a></li>
+            <li><a href="index.html#faq">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bajo">
+        <span>© <span id="anio">2026</span> Brasa Burger · Todos los derechos reservados.</span>
+        <span>Sitio desarrollado por <a href="https://kamextech.vercel.app" target="_blank" rel="noopener noreferrer"><strong>KAMEX Tech</strong></a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= WHATSAPP FLOTANTE ================= -->
+  <a class="whatsapp" href="https://wa.me/56940443203?text=Hola%21%20Vengo%20de%20la%20web%20de%20Brasa%20Burger%20%F0%9F%8D%94%20y%20quiero%20hacer%20un%20pedido."
+     target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9.4 3 4 8.3 4 14.9c0 2.6.8 5 2.3 7L4 29l7.3-2.3c1.9 1 3.8 1.5 4.7 1.5 6.6 0 12-5.3 12-11.9C28 8.3 22.6 3 16 3zm0 21.6c-1.4 0-3.1-.5-4.6-1.4l-.3-.2-4.3 1.4 1.4-4.2-.2-.3c-1.2-1.8-1.9-3.8-1.9-6 0-5.3 4.4-9.7 9.9-9.7s9.9 4.4 9.9 9.7-4.4 9.7-9.9 9.7zm5.5-7.2c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.6 5.7 5 3.3 1.4 3.3.9 3.9.9.6-.1 1.8-.7 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.5-.2z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
