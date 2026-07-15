@@ -257,6 +257,16 @@ h1, h2, h3, .font-display {
   pointer-events: none;
 }
 .hero__burger img { width: 92%; filter: drop-shadow(0 26px 26px rgba(34, 22, 16, .22)); }
+.hero__burger--foto img {
+  width: 78%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid var(--blanco);
+  box-shadow: 0 26px 40px -14px rgba(34, 22, 16, .45);
+  filter: none;
+}
 .hero__burger.is-activa {
   opacity: 1;
   transform: rotate(0deg) scale(1);
@@ -692,6 +702,22 @@ h1, h2, h3, .font-display {
 .plato__marco::after { bottom: 10px; right: 10px; border-left: 0; border-top: 0; }
 .plato__marco img { width: 82%; max-width: 250px; transition: transform .35s ease; }
 .plato:hover .plato__marco img { transform: scale(1.07) rotate(-1.5deg); }
+
+/* Marco para fotografías reales de platos (sin marco ilustrado, foto a página completa) */
+.plato__marco--foto {
+  padding: 0;
+  background: var(--crema-3);
+  aspect-ratio: 4 / 3;
+  min-height: 0;
+}
+.plato__marco--foto::before, .plato__marco--foto::after { display: none; }
+.plato__marco--foto img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+}
+.plato:hover .plato__marco--foto img { transform: scale(1.06); }
 .plato__info { padding: 20px 22px 22px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .plato__nombre {
   display: flex;
