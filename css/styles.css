@@ -22,6 +22,8 @@
   --radio: 22px;
   --fuente-titulo: "Lilita One", "Arial Black", sans-serif;
   --fuente-texto: "Nunito", "Segoe UI", sans-serif;
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -49,7 +51,10 @@ h1, h2, h3, .font-display {
   font-weight: 400;
   letter-spacing: .5px;
   line-height: 1.12;
+  text-wrap: balance;
 }
+
+p { text-wrap: pretty; }
 
 /* ---------- Botones ---------- */
 .btn {
@@ -63,10 +68,10 @@ h1, h2, h3, .font-display {
   font-size: 1rem;
   border: 2px solid transparent;
   cursor: pointer;
-  transition: transform .25s ease, box-shadow .25s ease, background .25s ease, color .25s ease;
+  transition: transform .2s var(--ease-out), box-shadow .2s var(--ease-out), background .2s var(--ease-out), color .2s var(--ease-out);
 }
 .btn:hover { transform: translateY(-3px); }
-.btn:active { transform: translateY(-1px) scale(.98); }
+.btn:active { transform: translateY(-1px) scale(.97); transition-duration: .12s; }
 
 .btn--primary {
   background: var(--naranja);
@@ -216,11 +221,7 @@ h1, h2, h3, .font-display {
 
 .hero__copy { font-size: 1.12rem; color: var(--carbon-3); max-width: 480px; margin-bottom: 30px; }
 
-.hero__acciones { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 34px; }
-
-.hero__datos { display: flex; gap: 34px; flex-wrap: wrap; }
-.hero__datos strong { font-family: var(--fuente-titulo); font-size: 1.55rem; color: var(--naranja-osc); display: block; }
-.hero__datos span { font-size: .86rem; font-weight: 700; color: var(--carbon-3); }
+.hero__acciones { display: flex; flex-wrap: wrap; gap: 14px; }
 
 /* Escenario de la hamburguesa giratoria */
 .hero__escenario {
@@ -401,10 +402,10 @@ h1, h2, h3, .font-display {
 .cat strong { font-family: var(--fuente-titulo); font-size: 1.06rem; letter-spacing: .5px; position: relative; z-index: 1; }
 .cat span { font-size: .8rem; font-weight: 700; color: var(--naranja-osc); position: relative; z-index: 1; }
 
-/* ---------- Features (3 promesas) ---------- */
+/* ---------- Features (promesas, 1 ancha + 2) ---------- */
 .features {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr;
   gap: 24px;
 }
 .feature {
@@ -414,26 +415,26 @@ h1, h2, h3, .font-display {
   box-shadow: var(--sombra);
   border: 2px solid rgba(34, 22, 16, .06);
   position: relative;
-  transition: transform .3s ease, border-color .3s ease;
+  transition: transform .25s var(--ease-out), border-color .25s var(--ease-out);
 }
 .feature:hover { transform: translateY(-8px); border-color: var(--dorado); }
-.feature__numero {
-  position: absolute;
-  top: -18px; left: 26px;
-  background: var(--naranja);
-  color: var(--blanco);
-  font-family: var(--fuente-titulo);
-  font-size: 1.15rem;
-  width: 44px; height: 44px;
-  border-radius: 14px;
-  display: grid;
-  place-items: center;
-  box-shadow: 0 10px 20px -10px rgba(232, 93, 38, .7);
-  rotate: -6deg;
-}
 .feature img { width: 132px; margin: 4px auto 18px; }
 .feature h3 { font-size: 1.32rem; margin-bottom: 10px; text-align: center; }
 .feature p { color: var(--carbon-3); font-size: .98rem; text-align: center; }
+.feature--ancha {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 12px 34px;
+  padding: 30px 38px;
+  background:
+    radial-gradient(circle at 92% 8%, rgba(242, 169, 59, .18), transparent 55%),
+    var(--blanco);
+}
+.feature--ancha img { width: 150px; margin: 0; }
+.feature--ancha h3, .feature--ancha p { text-align: left; }
+.feature--ancha p { max-width: 62ch; }
 
 /* ---------- FAQ ---------- */
 .faq { max-width: 780px; margin-inline: auto; }
@@ -808,8 +809,9 @@ h1, h2, h3, .font-display {
   font-weight: 800;
   font-size: 1rem;
   color: var(--carbon-3);
-  transition: all .25s ease;
+  transition: background .2s var(--ease-out), color .2s var(--ease-out), border-color .2s var(--ease-out), transform .2s var(--ease-out), box-shadow .2s var(--ease-out);
 }
+.tab:active { transform: scale(.97); }
 .tab .tab__emoji { display: block; font-size: 1.5rem; margin-bottom: 4px; }
 .tab.is-activa {
   background: var(--carbon);
@@ -855,17 +857,18 @@ h1, h2, h3, .font-display {
   padding: 12px 16px;
 }
 
-/* ---------- Animación de aparición al hacer scroll ---------- */
-.reveal {
+/* ---------- Animación de aparición al hacer scroll ----------
+   El estado oculto solo aplica si hay JS (html.js): sin JS todo queda visible. */
+html.js .reveal {
   opacity: 0;
-  transform: translateY(26px);
-  transition: opacity .7s ease, transform .7s ease;
+  transform: translateY(22px);
+  transition: opacity .55s var(--ease-out), transform .55s var(--ease-out);
 }
-.reveal.is-visible { opacity: 1; transform: none; }
-.reveal[data-delay="1"] { transition-delay: .12s; }
-.reveal[data-delay="2"] { transition-delay: .24s; }
-.reveal[data-delay="3"] { transition-delay: .36s; }
-.reveal[data-delay="4"] { transition-delay: .48s; }
+html.js .reveal.is-visible { opacity: 1; transform: none; }
+html.js .reveal[data-delay="1"] { transition-delay: .06s; }
+html.js .reveal[data-delay="2"] { transition-delay: .12s; }
+html.js .reveal[data-delay="3"] { transition-delay: .18s; }
+html.js .reveal[data-delay="4"] { transition-delay: .24s; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 1020px) {
@@ -877,13 +880,16 @@ h1, h2, h3, .font-display {
 @media (max-width: 900px) {
   .hero__grid { grid-template-columns: 1fr; text-align: center; }
   .hero__copy { margin-inline: auto; }
-  .hero__acciones, .hero__datos { justify-content: center; }
+  .hero__acciones { justify-content: center; }
   .hero__escenario { height: 430px; order: -1; }
   .hero__plato { width: 340px; height: 340px; }
   .hero__aro { width: 385px; height: 385px; }
   .hero__burgers { width: 350px; height: 350px; }
 
   .features { grid-template-columns: 1fr; max-width: 480px; margin-inline: auto; }
+  .feature--ancha { grid-template-columns: 1fr; text-align: center; padding: 34px 28px 30px; }
+  .feature--ancha img { margin: 4px auto 6px; }
+  .feature--ancha h3, .feature--ancha p { text-align: center; }
   .cta { grid-template-columns: 1fr; padding: 44px 30px; text-align: center; }
   .cta p { margin-inline: auto; }
   .footer__grid { grid-template-columns: 1fr 1fr; }
@@ -920,10 +926,17 @@ h1, h2, h3, .font-display {
   .hero__aro { width: 318px; height: 318px; }
   .hero__burgers { width: 290px; height: 290px; }
   .hero__nombre { font-size: .9rem; padding: 8px 18px; }
-  .hero__datos { gap: 20px; }
   .tarjeta-form { padding: 24px 18px; }
   .whatsapp { width: 54px; height: 54px; right: 16px; bottom: 16px; }
   .whatsapp svg { width: 30px; height: 30px; }
+}
+
+/* ---------- Táctil: sin efectos de hover pegajosos ---------- */
+@media (hover: none) {
+  .btn:hover, .cat:hover, .feature:hover, .plato:hover,
+  .cta__opcion:hover, .whatsapp:hover { transform: none; }
+  .cat:hover::before { transform: none; }
+  .cat:hover img, .plato:hover .plato__marco img { transform: none; }
 }
 
 /* ---------- Accesibilidad: menos movimiento ---------- */

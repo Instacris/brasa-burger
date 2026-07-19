@@ -4,6 +4,9 @@
 (function () {
   "use strict";
 
+  /* Marca que hay JS: habilita los estados ocultos de .reveal (sin JS, todo visible) */
+  document.documentElement.classList.add("js");
+
   /* ---------- Header con sombra al hacer scroll ---------- */
   const header = document.getElementById("header");
   if (header) {
